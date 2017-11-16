@@ -12,9 +12,15 @@
 		B08360231F7E99B400D868AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08360211F7E99B400D868AF /* Main.storyboard */; };
 		B08360251F7E99B400D868AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08360241F7E99B400D868AF /* Assets.xcassets */; };
 		B08360281F7E99B400D868AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08360261F7E99B400D868AF /* LaunchScreen.storyboard */; };
+		DB4AF343CAEC512DF5F335F8 /* Pods_Zeuss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5122645D8B5B62E31E5BAA /* Pods_Zeuss.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B5122645D8B5B62E31E5BAA /* Pods_Zeuss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeuss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B031DAF01F7EE38D00611E32 /* spin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spin1.png; sourceTree = "<group>"; };
+		B031DAF11F7EEE1700611E32 /* spinzeuss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinzeuss.png; sourceTree = "<group>"; };
+		B031DAF21F7EEF4200611E32 /* spinzeuss2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinzeuss2.png; sourceTree = "<group>"; };
+		B031DAF31F7EEF4200611E32 /* spinzeuss1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinzeuss1.png; sourceTree = "<group>"; };
 		B083601A1F7E99B400D868AF /* Zeuss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeuss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B083601D1F7E99B400D868AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B083601F1F7E99B400D868AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		B08360241F7E99B400D868AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B08360271F7E99B400D868AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B08360291F7E99B400D868AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BA0EABE7077379B9794B00 /* Pods-Zeuss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeuss.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zeuss/Pods-Zeuss.release.xcconfig"; sourceTree = "<group>"; };
+		F1EE78EB21EFAC7164321DEC /* Pods-Zeuss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeuss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zeuss/Pods-Zeuss.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4AF343CAEC512DF5F335F8 /* Pods_Zeuss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68694A3FAAE0AAC93DE9BD5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B5122645D8B5B62E31E5BAA /* Pods_Zeuss.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B08360111F7E99B400D868AF = {
 			isa = PBXGroup;
 			children = (
 				B083601C1F7E99B400D868AF /* Zeuss */,
 				B083601B1F7E99B400D868AF /* Products */,
+				DB6EBA587A3D72B15CBA8BF6 /* Pods */,
+				68694A3FAAE0AAC93DE9BD5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +73,10 @@
 		B083601C1F7E99B400D868AF /* Zeuss */ = {
 			isa = PBXGroup;
 			children = (
+				B031DAF31F7EEF4200611E32 /* spinzeuss1.png */,
+				B031DAF21F7EEF4200611E32 /* spinzeuss2.png */,
+				B031DAF11F7EEE1700611E32 /* spinzeuss.png */,
+				B031DAF01F7EE38D00611E32 /* spin1.png */,
 				B083601D1F7E99B400D868AF /* AppDelegate.swift */,
 				B083601F1F7E99B400D868AF /* ViewController.swift */,
 				B08360211F7E99B400D868AF /* Main.storyboard */,
@@ -64,6 +87,15 @@
 			path = Zeuss;
 			sourceTree = "<group>";
 		};
+		DB6EBA587A3D72B15CBA8BF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE78EB21EFAC7164321DEC /* Pods-Zeuss.debug.xcconfig */,
+				D7BA0EABE7077379B9794B00 /* Pods-Zeuss.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B083602C1F7E99B400D868AF /* Build configuration list for PBXNativeTarget "Zeuss" */;
 			buildPhases = (
+				27BCB17366EF9854F2C8E671 /* [CP] Check Pods Manifest.lock */,
 				B08360161F7E99B400D868AF /* Sources */,
 				B08360171F7E99B400D868AF /* Frameworks */,
 				B08360181F7E99B400D868AF /* Resources */,
+				71CB910C3C43F8F20F6124A8 /* [CP] Embed Pods Frameworks */,
+				116D87460A8CC3EE473F71CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +165,68 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116D87460A8CC3EE473F71CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Zeuss/Pods-Zeuss-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zeuss/Pods-Zeuss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27BCB17366EF9854F2C8E671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeuss-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71CB910C3C43F8F20F6124A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Zeuss/Pods-Zeuss-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zeuss/Pods-Zeuss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B08360161F7E99B400D868AF /* Sources */ = {
@@ -272,30 +369,34 @@
 		};
 		B083602D1F7E99B400D868AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EE78EB21EFAC7164321DEC /* Pods-Zeuss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E26W279KMM;
 				INFOPLIST_FILE = Zeuss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ccpinzon.Zeuss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B083602E1F7E99B400D868AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7BA0EABE7077379B9794B00 /* Pods-Zeuss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E26W279KMM;
 				INFOPLIST_FILE = Zeuss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ccpinzon.Zeuss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
